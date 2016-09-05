@@ -1,0 +1,16 @@
+lexicons:
+  - codelingo/git
+
+tenets:
+  - name: growing-args
+    doc: "functions should not take more than three args"
+    comment: >
+      The argument list to this function is getting quite long. 
+      It should instead take a dataset.
+    match:
+      <func:
+        git.commit: "HEAD^"
+          args:
+            count: p
+        args:
+          count: > $p

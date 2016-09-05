@@ -1,2 +1,5 @@
-def fun():
-    print(“Hello World”)
+def writeMsg(a,b):
+    print(a+b)
+
+# call the function
+writeMsg(1,2)

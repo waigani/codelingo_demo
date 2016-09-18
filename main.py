@@ -1,4 +1,4 @@
-def writeMsg(a,b):
+def writeMsg(a,b,c,d):
     print(a+b+c+d)
 
 # call the function

@@ -1,5 +1,5 @@
-def writeMsg(a,b):
-    print(a+b)
+def writeMsg(a,b,c,d):
+    print(a+b+c+d)
 
 # call the function
-writeMsg(1,2)
+writeMsg(1,2,3,4)

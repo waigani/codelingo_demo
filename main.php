@@ -1,8 +1,8 @@
 <?php
-function writeMsg($a,$b,$c,$d) {
+function writeAMsg($a,$b,$c,$d) {
     echo $a+$b+$c+$d;
 }
 
 // call the function
-writeMsg(1,2,3,4);
+writeAMsg(1,2,3,4);
 ?>

@@ -1,9 +1,6 @@
-lexicons:
-  - codelingo/go
-
 tenets:
-  - name: func-match
-    doc: "simple func match"
-    comment: "This is a new comment test"
+  - name: Name
+    doc: Description
+    comment: "Review comment"
     match: 
-      <go.func
+      <func
